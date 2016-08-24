@@ -2,7 +2,7 @@
 
 namespace DanceHub.Models
 {
-    public class Type
+    public class EventType
     {
         public byte Id { get; set; }
 

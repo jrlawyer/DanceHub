@@ -17,6 +17,6 @@ namespace DanceHub.Models
         public string Location { get; set; }
 
         [Required]
-        public Type Type { get; set; }
+        public EventType Type { get; set; }
     }
 }
