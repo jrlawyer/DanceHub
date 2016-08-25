@@ -14,7 +14,6 @@ namespace DanceHub.Controllers
             _context = new ApplicationDbContext();
         }
         
-        // GET: Events
         public ActionResult Create()
         {
             var viewModel = new EventFormViewModel
